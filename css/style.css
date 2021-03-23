@@ -8,11 +8,23 @@ ul {
   display: flex;
 }
 
+.button {
+  background-color: #000000;
+  height: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+}
+
 .main {
   position: relative;
   margin: 0 auto;
   width: 1440px;
-  background: #fc0202;
+  height: 6806px;
+  background: rgba(255, 250, 248, 0.9);
 }
 
 .header__top {
@@ -35,6 +47,14 @@ ul {
   margin-bottom: 10px;
 }
 
+.header__coffe-face-logo {
+  position: absolute;
+  width: 179.55px;
+  height: 18.3px;
+  left: 60px;
+  top: 78px;
+}
+
 .header__link {
   position: absolute;
   width: 660px;
@@ -45,6 +65,7 @@ ul {
 
 .header__link .header__link-list {
   padding: 0;
+  margin-top: 0;
 }
 
 .header__link .header__link-text {
@@ -56,20 +77,56 @@ ul {
   color: #000000;
 }
 
-.header__link .header__link-text--shop {
-  margin-left: 73px;
+.header__link .header__link-text--home:hover, .header__link .header__link-text--shop:hover, .header__link .header__link-text--about:hover, .header__link .header__link-text--what:hover, .header__link .header__link-text--contact:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: #8A5137;
+  border-bottom: 1px solid #8A5137;
+  cursor: pointer;
 }
 
-.header__link .header__link-text--About {
-  margin-left: 74px;
+.header__link .header__link-text--home {
+  border-bottom: #ffffff;
+}
+
+.header__link .header__link-text--shop {
+  margin-left: 73px;
+  padding-bottom: 8px;
+  border-bottom: #ffffff;
+}
+
+.header__link .header__link-text--about {
+  margin-left: 73px;
+  padding-bottom: 8px;
+  border-bottom: #ffffff;
 }
 
 .header__link .header__link-text--what {
-  margin-left: 90px;
+  margin-left: 73px;
+  padding-bottom: 8px;
+  border-bottom: #ffffff;
 }
 
 .header__link .header__link-text--contact {
-  margin-left: 68px;
+  margin-left: 73px;
+  padding-bottom: 8px;
+  border-bottom: #ffffff;
+}
+
+.cart {
+  position: absolute;
+  width: 16px;
+  height: 18.5px;
+  left: 1363px;
+  top: 82px;
+}
+
+.cart-number {
+  position: absolute;
+  width: 14px;
+  height: 15px;
+  left: 1371px;
+  top: 76px;
 }
 
 .header__title {
@@ -102,6 +159,22 @@ ul {
 
 .header__photo {
   position: absolute;
-  left: -35px;
   top: 136px;
+}
+
+.header__button {
+  position: absolute;
+  width: 316px;
+  left: 961px;
+  top: 525px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.header__button:hover {
+  background-color: #8A5137;
+  border: 1px solid #8A5137;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
 }
