@@ -6,9 +6,12 @@
     text-align: center
     color: $color
 
-@mixin he-wi($wd, $hg)
+@mixin he-wi($wd, $hg, $left, $top)
+    position: absolute
     width: $wd
     height: $hg
+    left: $left
+    top: $top
 
 @mixin link-text($marg-left, $padd-bot)
     margin-left: 73px

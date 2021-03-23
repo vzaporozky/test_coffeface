@@ -24,6 +24,9 @@ ul {
   margin: 0 auto;
   width: 1440px;
   height: 6806px;
+}
+
+.header {
   background: rgba(255, 250, 248, 0.9);
 }
 
@@ -177,4 +180,250 @@ ul {
   -webkit-transition: 1s;
   transition: 1s;
   cursor: pointer;
+}
+
+.block1 {
+  position: absolute;
+  width: 1440px;
+  height: 435px;
+  left: 0px;
+  top: 920px;
+  background: #000000;
+}
+
+.block1 .block1__title-coffe-face {
+  position: absolute;
+  width: 264px;
+  height: 27px;
+  left: 252px;
+  top: 140px;
+}
+
+.block1 .block1__subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  width: 428px;
+  height: 111px;
+  left: 172px;
+  top: 193px;
+}
+
+.block1 .block1__image-girl {
+  position: absolute;
+  width: 538px;
+  left: 698px;
+  top: -123px;
+}
+
+.buy__image-coffe-face1 {
+  position: absolute;
+  width: 687.67px;
+  height: 692.06px;
+  left: 29.23px;
+  top: 1399px;
+  z-index: 1;
+}
+
+.buy__image-coffe-face2 {
+  position: absolute;
+  left: -5.42%;
+  right: 60.38%;
+  top: 20%;
+  bottom: 67.71%;
+}
+
+.buy__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  width: 442px;
+  height: 104px;
+  left: 781px;
+  top: 1561px;
+}
+
+.buy__subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  width: 428px;
+  height: 93px;
+  left: 786px;
+  top: 1749px;
+}
+
+.buy__last-price {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  width: 116px;
+  height: 30px;
+  left: 876px;
+  top: 1874px;
+  opacity: 0.5;
+}
+
+.buy__cross {
+  position: absolute;
+  width: 90px;
+  height: 1px;
+  left: 889px;
+  top: 1889px;
+  background: #000000;
+  opacity: 0.5;
+}
+
+.buy__new-price {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  width: 188px;
+  height: 45px;
+  left: 939px;
+  top: 1863px;
+}
+
+.buy__button {
+  position: absolute;
+  width: 316px;
+  height: 70px;
+  left: 845px;
+  top: 1936px;
+}
+
+.mask-group {
+  position: absolute;
+  width: 1440px;
+  height: 740px;
+  left: 0px;
+  top: 2138px;
+}
+
+.mask-group__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  width: 602px;
+  height: 319px;
+  left: 419px;
+  top: 2412px;
+}
+
+.block2 {
+  position: absolute;
+  width: 1440px;
+  height: 533px;
+  left: 0px;
+  top: 2878px;
+  background: rgba(252, 209, 194, 0.2);
+}
+
+.block2 .block2__background-text {
+  position: absolute;
+  width: 822px;
+  height: 412px;
+  left: 310px;
+  top: -109px;
+  font-family: Bellamy Signature;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 102px;
+  line-height: 412px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.05;
+}
+
+.block2 .block2__title {
+  position: absolute;
+  width: 626px;
+  height: 60px;
+  left: 407px;
+  top: 125px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+
+.block2 ul .block2__ellipse--hand-wash {
+  position: absolute;
+  width: 124px;
+  height: 124px;
+  left: 215px;
+  top: 234px;
+  background: #FFFFFF;
+  border: 1px solid #8A5137;
+  border-radius: 80px;
+  text-align: center;
+}
+
+.block2 ul .block2__ellipse--treatment {
+  position: absolute;
+  width: 124px;
+  height: 124px;
+  left: 657px;
+  top: 234px;
+  background: #FFFFFF;
+  border: 1px solid #8A5137;
+  border-right: 1px solid #8A5137;
+  border-radius: 80px;
+  text-align: center;
+}
+
+.block2 ul .block2__ellipse--waiting {
+  position: absolute;
+  width: 124px;
+  height: 124px;
+  left: 1104px;
+  top: 234px;
+  border: 1px solid #8A5137;
+  background: #FFFFFF;
+  border-radius: 80px;
+  text-align: center;
+}
+
+.block2 ul .block2__ellipse-image {
+  padding: 40px;
+}
+
+.block2 ul .block2__list-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+  width: 296px;
+  height: 30px;
+  position: relative;
+  left: -80px;
+  top: 14px;
 }
