@@ -35,7 +35,6 @@
     @include he-wi(660px, 24px, 498px, 78px)
 
     .header__link-list
-        padding: 0
         margin-top: 0
 
     .header__link-text
@@ -255,6 +254,8 @@
     .block3__subtitle
         @include he-wi(650px, 186px, 395px, 331px)
         @include font(300, 18px, 170%, $black)
+
+
     .block3__subtitle_left
         left: -387px
         opacity: 0.5
@@ -282,7 +283,6 @@
     .block4__list
         @include he-wi(1303px, 380px, 76px, 464px)
         margin-right: 44px
-        padding: 0
 
         .block4__list-item-left
             left: 0
@@ -362,7 +362,6 @@
 
     .block6__list-slider
         @include he-wi(1332px, 210px, 58px, 219px)
-        padding: 0
         margin-left: 20px
 
         .block6__slider-item1, .block6__slider-item2, .block6__slider-item3
@@ -378,6 +377,85 @@
     .block6__arrow-right
         left: 1406px
         
+.footer
+    @include he-wi(1440px, 309px, 0, 6496.77px)
+    background: $black
+
+    .footer__background-img
+        position: relative
+        width: 900px
+        top: -340px
+        left: -380px
+
+    .footer__block1
+        @include he-wi(1440px, 248px, 0, 1px)
+
+        .footer__coflog
+            @include he-wi(180px, 18.3px, 59.04px, 41px)
+
+
+        .footer__list-link-first
+            @include he-wi(219px, 114px, 618.04px, 41px)
+            display: block
+            
+        .footer__list-link-second
+            @include he-wi(137px, 114px, 954.04px, 41px)
+            display: block
+
+        .footer__list
+            @include font(normal, 16px, 240%, $white)
+            text-align: left
+            list-style: none
+            text-decoration: none
+            transition: 0.5s
+        .footer__list:hover
+            color: #8A5137
+            transition: 0.5s
+
+        .footer__list-link-contact
+            @include he-wi(130px, 114px, 1224px, 41px)
+
+            .footer__list-contact-item1, .footer__list-contact-item2
+                margin-right: 53px
+
+            
+            .footer__list-contact-item1:hover, .footer__list-contact-item2:hover, .footer__list-contact-item3:hover
+                fill: #8A5137
+                transition: 1s
+
+        .footer__list-link-donate
+            @include he-wi(272px, 21px, 1108.04px, 196px)
+
+            .footer__list-donate-item1:hover, .footer__list-donate-item2:hover, .footer__list-donate-item3:hover, .footer__list-donate-item4:hover, .footer__list-donate-item5:hover, .footer__list-donate-item6:hover
+                border: 1px solid #8A5137
+                border-radius: 2px
+            .footer__list-donate-item2, .footer__list-donate-item3, .footer__list-donate-item4, .footer__list-donate-item5, .footer__list-donate-item6
+                margin-left: 16px
+
+    .fotter__block-line
+        @include he-wi(1320px, 0.5px, 60.04px, 248px)
+        background: #FFFFFF
+        opacity: 0.3
+
+    .footer__block2
+        position: absolute
+        top: 249px
+        height: 60px
+        left: 0
+        right: 0
+
+        .footer__block2-text-left
+            @include he-wi(203px, 18px, 60.04px, 22px)
+            @include font(300, 12px, 18px, $white)
+            text-align: left
+            opacity: 0.4
+
+        .footer__block2-text-right
+            @include he-wi(144px, 18px, 1236.04px, 22px)
+            @include font(300, 12px, 18px, $white)
+            text-align: right
+            opacity: 0.4
+
 
 
 

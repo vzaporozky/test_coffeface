@@ -6,6 +6,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0;
 }
 
 .button {
@@ -75,7 +76,6 @@ ul {
 }
 
 .header__link .header__link-list {
-  padding: 0;
   margin-top: 0;
 }
 
@@ -596,7 +596,6 @@ ul {
   left: 76px;
   top: 464px;
   margin-right: 44px;
-  padding: 0;
 }
 
 .block4 .block4__list .block4__list-item-left {
@@ -799,7 +798,6 @@ ul {
   height: 210px;
   left: 58px;
   top: 219px;
-  padding: 0;
   margin-left: 20px;
 }
 
@@ -823,4 +821,159 @@ ul {
 
 .block6 .block6__arrow-right {
   left: 1406px;
+}
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 309px;
+  left: 0;
+  top: 6496.77px;
+  background: #000000;
+}
+
+.footer .footer__background-img {
+  position: relative;
+  width: 900px;
+  top: -340px;
+  left: -380px;
+}
+
+.footer .footer__block1 {
+  position: absolute;
+  width: 1440px;
+  height: 248px;
+  left: 0;
+  top: 1px;
+}
+
+.footer .footer__block1 .footer__coflog {
+  position: absolute;
+  width: 180px;
+  height: 18.3px;
+  left: 59.04px;
+  top: 41px;
+}
+
+.footer .footer__block1 .footer__list-link-first {
+  position: absolute;
+  width: 219px;
+  height: 114px;
+  left: 618.04px;
+  top: 41px;
+  display: block;
+}
+
+.footer .footer__block1 .footer__list-link-second {
+  position: absolute;
+  width: 137px;
+  height: 114px;
+  left: 954.04px;
+  top: 41px;
+  display: block;
+}
+
+.footer .footer__block1 .footer__list {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 240%;
+  text-align: center;
+  color: #ffffff;
+  text-align: left;
+  list-style: none;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footer .footer__block1 .footer__list:hover {
+  color: #8A5137;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footer .footer__block1 .footer__list-link-contact {
+  position: absolute;
+  width: 130px;
+  height: 114px;
+  left: 1224px;
+  top: 41px;
+}
+
+.footer .footer__block1 .footer__list-link-contact .footer__list-contact-item1, .footer .footer__block1 .footer__list-link-contact .footer__list-contact-item2 {
+  margin-right: 53px;
+}
+
+.footer .footer__block1 .footer__list-link-contact .footer__list-contact-item1:hover, .footer .footer__block1 .footer__list-link-contact .footer__list-contact-item2:hover, .footer .footer__block1 .footer__list-link-contact .footer__list-contact-item3:hover {
+  fill: #8A5137;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.footer .footer__block1 .footer__list-link-donate {
+  position: absolute;
+  width: 272px;
+  height: 21px;
+  left: 1108.04px;
+  top: 196px;
+}
+
+.footer .footer__block1 .footer__list-link-donate .footer__list-donate-item1:hover, .footer .footer__block1 .footer__list-link-donate .footer__list-donate-item2:hover, .footer .footer__block1 .footer__list-link-donate .footer__list-donate-item3:hover, .footer .footer__block1 .footer__list-link-donate .footer__list-donate-item4:hover, .footer .footer__block1 .footer__list-link-donate .footer__list-donate-item5:hover, .footer .footer__block1 .footer__list-link-donate .footer__list-donate-item6:hover {
+  border: 1px solid #8A5137;
+  border-radius: 2px;
+}
+
+.footer .footer__block1 .footer__list-link-donate .footer__list-donate-item2, .footer .footer__block1 .footer__list-link-donate .footer__list-donate-item3, .footer .footer__block1 .footer__list-link-donate .footer__list-donate-item4, .footer .footer__block1 .footer__list-link-donate .footer__list-donate-item5, .footer .footer__block1 .footer__list-link-donate .footer__list-donate-item6 {
+  margin-left: 16px;
+}
+
+.footer .fotter__block-line {
+  position: absolute;
+  width: 1320px;
+  height: 0.5px;
+  left: 60.04px;
+  top: 248px;
+  background: #FFFFFF;
+  opacity: 0.3;
+}
+
+.footer .footer__block2 {
+  position: absolute;
+  top: 249px;
+  height: 60px;
+  left: 0;
+  right: 0;
+}
+
+.footer .footer__block2 .footer__block2-text-left {
+  position: absolute;
+  width: 203px;
+  height: 18px;
+  left: 60.04px;
+  top: 22px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  text-align: left;
+  opacity: 0.4;
+}
+
+.footer .footer__block2 .footer__block2-text-right {
+  position: absolute;
+  width: 144px;
+  height: 18px;
+  left: 1236.04px;
+  top: 22px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  text-align: right;
+  opacity: 0.4;
 }
