@@ -145,6 +145,12 @@
 .buy__button
     @include he-wi(316px, 70px, 845px, 1936px)
 
+.buy__button:hover
+    background-color: #8A5137
+    border: 1px solid #8A5137
+    transition: 1s 
+    cursor: pointer
+
 
 .mask-group
     @include he-wi(1440px, 740px, 0px, 2138px)
@@ -208,5 +214,90 @@
             position: relative
             left: -80px
             top: 14px
+
+.block3
+    @include he-wi(1440px, 798px, 0px, 3411px)
+
+    .block3__title
+        @include he-wi(626px, 60px, 407px, 90px)
+        @include font(200, 40px, 150%, $black)
+    
+    .block3__photo
+        @include he-wi(86px, 86px, 676px, 177px)
+    .block3__photos-name
+        @include he-wi(426px, 37px, 507px, 273px)
+        @include font(500, 22px, 170%, $black)
+
+    .block3__ellipse
+        @include he-wi(43px, 43px, 0px, 198px)
+        border: 1px solid #8A5137
+        border-radius: 43px
+
+    .block3__ellipse:hover
+        background-color: #8A5137
+        transition: 1s
+
+    .block3__ellipse-left
+        left: 421px
+    .block3__ellipse-right
+        left: 1019px
+
+    .block3__arrow-left
+        position: absolute
+        top: 18px
+        left: 19px
+
+    .block3__arrow-right
+        position: absolute
+        top: 18px
+        right: 19px
+
+    .block3__subtitle
+        @include he-wi(650px, 186px, 395px, 331px)
+        @include font(300, 18px, 170%, $black)
+    .block3__subtitle_left
+        left: -387px
+        opacity: 0.5
+    .block3__subtitle_right
+        left: 1177px
+        opacity: 0.5
+
+
+.aloe
+    @include he-wi(874px, 416px, 283px, 4041px)
+    z-index: 1
+
+.block4
+    @include he-wi(1440px, 700px, 0px, 4209px)
+    background: $black
+
+    .block4__title
+        @include he-wi(626px, 60px, 407px, 350px)
+        @include font(200, 40px, 150%, $white)
+        position: relative
+
+    .vector-background
+        @include he-wi(42%, -15.42%, 54.83%, 0%)
+
+    .block4__list
+        @include he-wi(1303px, 380px, 76px, 464px)
+        margin-right: 44px
+        padding: 0
+
+        .block4__list-item-left
+            left: 0
+        
+        .block4__list-item-center
+            margin-left: 12px
+        
+        .block4__list-item-right
+            margin-left: 10px
+
+        .block4__list-subtitle
+            @include font(normal, 18px, 160%, $black)
+            text-align: right
+
+
+
 
 

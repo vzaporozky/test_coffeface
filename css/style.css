@@ -312,6 +312,14 @@ ul {
   top: 1936px;
 }
 
+.buy__button:hover {
+  background-color: #8A5137;
+  border: 1px solid #8A5137;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
 .mask-group {
   position: absolute;
   width: 1440px;
@@ -426,4 +434,181 @@ ul {
   position: relative;
   left: -80px;
   top: 14px;
+}
+
+.block3 {
+  position: absolute;
+  width: 1440px;
+  height: 798px;
+  left: 0px;
+  top: 3411px;
+}
+
+.block3 .block3__title {
+  position: absolute;
+  width: 626px;
+  height: 60px;
+  left: 407px;
+  top: 90px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+
+.block3 .block3__photo {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  left: 676px;
+  top: 177px;
+}
+
+.block3 .block3__photos-name {
+  position: absolute;
+  width: 426px;
+  height: 37px;
+  left: 507px;
+  top: 273px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: center;
+  color: #000000;
+}
+
+.block3 .block3__ellipse {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 0px;
+  top: 198px;
+  border: 1px solid #8A5137;
+  border-radius: 43px;
+}
+
+.block3 .block3__ellipse:hover {
+  background-color: #8A5137;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.block3 .block3__ellipse-left {
+  left: 421px;
+}
+
+.block3 .block3__ellipse-right {
+  left: 1019px;
+}
+
+.block3 .block3__arrow-left {
+  position: absolute;
+  top: 18px;
+  left: 19px;
+}
+
+.block3 .block3__arrow-right {
+  position: absolute;
+  top: 18px;
+  right: 19px;
+}
+
+.block3 .block3__subtitle {
+  position: absolute;
+  width: 650px;
+  height: 186px;
+  left: 395px;
+  top: 331px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: center;
+  color: #000000;
+}
+
+.block3 .block3__subtitle_left {
+  left: -387px;
+  opacity: 0.5;
+}
+
+.block3 .block3__subtitle_right {
+  left: 1177px;
+  opacity: 0.5;
+}
+
+.aloe {
+  position: absolute;
+  width: 874px;
+  height: 416px;
+  left: 283px;
+  top: 4041px;
+  z-index: 1;
+}
+
+.block4 {
+  position: absolute;
+  width: 1440px;
+  height: 700px;
+  left: 0px;
+  top: 4209px;
+  background: #000000;
+}
+
+.block4 .block4__title {
+  position: absolute;
+  width: 626px;
+  height: 60px;
+  left: 407px;
+  top: 350px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+
+.block4 .vector-background {
+  position: absolute;
+  width: 42%;
+  height: -15.42%;
+  left: 54.83%;
+  top: 0%;
+}
+
+.block4 .block4__list {
+  position: absolute;
+  width: 1303px;
+  height: 380px;
+  left: 76px;
+  top: 464px;
+  margin-right: 44px;
+  padding: 0;
+}
+
+.block4 .block4__list .block4__list-item-left {
+  left: 0;
+}
+
+.block4 .block4__list .block4__list-item-center {
+  margin-left: 12px;
+}
+
+.block4 .block4__list .block4__list-item-right {
+  margin-left: 10px;
+}
+
+.block4 .block4__list .block4__list-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #000000;
+  text-align: right;
 }
