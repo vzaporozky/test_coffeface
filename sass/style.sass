@@ -286,16 +286,32 @@
 
         .block4__list-item-left
             left: 0
-        
+            margin-right: 10px
+
         .block4__list-item-center
             margin-left: 12px
-        
+            
         .block4__list-item-right
             margin-left: 10px
 
         .block4__list-subtitle
             @include font(normal, 18px, 160%, $black)
-            text-align: right
+            text-align: left
+
+    .block4__img-hover_effect
+        @include he-wi(427px, 299px, 1px, 1px)
+        transition: 1s
+    .block4__img-hover_effect-center
+        @include he-wi(427px, 299px, 450px, 1px)
+    .block4__img-hover_effect-right
+        @include he-wi(427px, 299px, 887px, 1px)
+
+    .block4__img-hover_effect:hover
+        transition: 1s
+        background-color: rgba(138, 81, 55, 0.5)
+
+    .block4__image
+        @include he-wi(1320px, 190px, 34px, 897px)
 
 
 
