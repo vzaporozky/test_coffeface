@@ -2,459 +2,484 @@
 @import "_global.sass"
 @import "_mixin.sass"
 
-.main   
-    position: relative
-    margin: 0 auto
-    width: 1440px
-    height: 6806px
+
+@media screen and ( min-width: 1440px  )
     
 
-// <-- header
-.header
-    background: rgba(255, 250, 248, 0.9)
+    .main   
+        position: relative
+        margin: 0 auto
+        width: 1440px
+        height: 6806px
+        
+
+    // <-- header
+    .header
+        background: rgba(255, 250, 248, 0.9)
 
 
-.header__top
-    position: absolute
-    left: 0
-    top: 0
-    right: 0
-    height: 40px
-    background-color: $black
+    .header__top
+        position: absolute
+        left: 0
+        top: 0
+        right: 0
+        height: 40px
+        background-color: $black
 
-    @include font(300, 12px, 18px, $white)
+        @include font(300, 12px, 18px, $white)
 
-    .header__top-text
-        margin-top: 10px
-        margin-bottom: 10px
+        .header__top-text
+            margin-top: 10px
+            margin-bottom: 10px
 
-.header__coffe-face-logo
-    @include he-wi(179.55px, 18.3px, 60px, 78px)
+    .header__coffe-face-logo
+        @include he-wi(179.55px, 18.3px, 60px, 78px)
 
-.header__link
-    @include he-wi(660px, 24px, 498px, 78px)
+    .header__link
+        @include he-wi(660px, 24px, 498px, 78px)
 
-    .header__link-list
-        margin-top: 0
+        .header__link-list
+            margin-top: 0
 
-    .header__link-text
-        @include font(300, 16px, 24px, $black)
+        .header__link-text
+            @include font(300, 16px, 24px, $black)
 
-    .header__link-text--home:hover, .header__link-text--shop:hover, .header__link-text--about:hover, .header__link-text--what:hover, .header__link-text--contact:hover
-        transition: 1s
-        color: #8A5137
-        border-bottom: 1px solid #8A5137
+        .header__link-text--home:hover, .header__link-text--shop:hover, .header__link-text--about:hover, .header__link-text--what:hover, .header__link-text--contact:hover
+            transition: 1s
+            color: #8A5137
+            border-bottom: 1px solid #8A5137
+            cursor: pointer
+
+        .header__link-text--home
+            border-bottom: $white 
+        .header__link-text--shop
+            @include link-text(73px, 8px)
+        .header__link-text--about
+            @include link-text(74px, 8px)
+        .header__link-text--what
+            @include link-text(90px, 8px)
+        .header__link-text--contact
+            @include link-text(68px, 8px)
+
+    .cart
+        @include he-wi(16px, 18.5px, 1363px, 82px)
+    .cart-number
+        @include he-wi(14px, 15px, 1371px, 76px)
+
+    .header__title
+        @include he-wi(895px, 100px, 671px, 317px)
+        @include font(300, 36px, 140%, $black)
+
+    .header__subtitle
+        @include he-wi(388px, 60px, 924px, 430px)
+        @include font(300, 20px, 30px, $black)
+
+    .header__photo
+        position: absolute
+        top: 136px
+
+    .header__button
+        position: absolute
+        width: 316px
+        left: 961px
+        top: 525px
+        transition: 1s 
+
+    .header__button:hover
+        background-color: #8A5137
+        border: 1px solid #8A5137
+        transition: 1s 
         cursor: pointer
 
-    .header__link-text--home
-        border-bottom: $white 
-    .header__link-text--shop
-        @include link-text(73px, 8px)
-    .header__link-text--about
-        @include link-text(74px, 8px)
-    .header__link-text--what
-        @include link-text(90px, 8px)
-    .header__link-text--contact
-        @include link-text(68px, 8px)
+    // header -->
 
-.cart
-    @include he-wi(16px, 18.5px, 1363px, 82px)
-.cart-number
-    @include he-wi(14px, 15px, 1371px, 76px)
+    // <-- block 1
 
-.header__title
-    @include he-wi(895px, 100px, 671px, 317px)
-    @include font(300, 36px, 140%, $black)
+    .block1 
+        @include he-wi(1440px, 435px, 0px, 920px)
 
-.header__subtitle
-    @include he-wi(388px, 60px, 924px, 430px)
-    @include font(300, 20px, 30px, $black)
+        background: #000000
 
-.header__photo
-    position: absolute
-    top: 136px
+        .block1__title-coffe-face
+            @include he-wi(264px, 27px, 252px, 140px)
 
-.header__button
-    position: absolute
-    width: 316px
-    left: 961px
-    top: 525px
-    transition: 1s 
+        .block1__subtitle
+            @include font(300, 22px, 170%, $white)
+            @include he-wi(428px, 111px, 172px, 193px)
 
-.header__button:hover
-    background-color: #8A5137
-    border: 1px solid #8A5137
-    transition: 1s 
-    cursor: pointer
+        .block1__image-girl
+            position: absolute
+            width: 538px
+            left: 698px
+            top: -123px
 
-// header -->
+    .buy__image-coffe-face1
+        @include he-wi(687.67px, 692.06px, 29.23px, 1399px)
+        z-index: 1
 
-// <-- block 1
-
-.block1 
-    @include he-wi(1440px, 435px, 0px, 920px)
-
-    background: #000000
-
-    .block1__title-coffe-face
-        @include he-wi(264px, 27px, 252px, 140px)
-
-    .block1__subtitle
-        @include font(300, 22px, 170%, $white)
-        @include he-wi(428px, 111px, 172px, 193px)
-
-    .block1__image-girl
+    .buy__image-coffe-face2
         position: absolute
-        width: 538px
-        left: 698px
-        top: -123px
-
-.buy__image-coffe-face1
-    @include he-wi(687.67px, 692.06px, 29.23px, 1399px)
-    z-index: 1
-
-.buy__image-coffe-face2
-    position: absolute
-    left: -5.42%
-    right: 60.38%
-    top: 20%
-    bottom: 67.71%
-.buy__title
-    @include font(200, 40px, 130%, $black)
-    @include he-wi(442px, 104px, 781px, 1561px)
+        left: -5.42%
+        right: 60.38%
+        top: 20%
+        bottom: 67.71%
+    .buy__title
+        @include font(200, 40px, 130%, $black)
+        @include he-wi(442px, 104px, 781px, 1561px)
 
 
-.buy__subtitle
-    @include font(300, 18px, 170%, $black)
-    @include he-wi(428px, 93px, 786px, 1749px)
-
-.buy__last-price
-    @include font(200, 20px, 150%, $black)
-    @include he-wi(116px, 30px, 876px, 1874px)
-    opacity: 0.5
-.buy__cross
-    @include he-wi(90px, 1px, 889px, 1889px)
-    background: #000000
-    opacity: 0.5
-
-.buy__new-price
-    @include font(200, 30px, 150%, $black)
-    @include he-wi(188px, 45px, 939px, 1863px)
-
-.buy__button
-    @include he-wi(316px, 70px, 845px, 1936px)
-
-.buy__button:hover
-    background-color: #8A5137
-    border: 1px solid #8A5137
-    transition: 1s 
-    cursor: pointer
-
-
-.mask-group
-    @include he-wi(1440px, 740px, 0px, 2138px)
-
-.mask-group__title
-    @include font(200, 60px, 72px, $white)
-    @include he-wi(602px, 319px, 419px, 2412px)
-
-
-// <--- block2 
-
-.block2
-    @include he-wi(1440px, 533px, 0px , 2878px)
-    background: rgba(252, 209, 194, 0.2)
-
-    .block2__background-text
-        @include he-wi(822px, 412px, 310px , -109px)
-        font-family: Bellamy Signature
-        font-style: normal
-        font-weight: normal
-        font-size: 102px
-        line-height: 412px
-
-        text-align: center
-
-        color: #000000
-        opacity: 0.05
-
-
-    .block2__title
-        @include he-wi(626px, 60px, 407px , 125px)
-        @include font(200, 40px, 150%, $black)
-
-    ul
-        .block2__ellipse--hand-wash
-            @include he-wi(124px, 124px, 215px , 234px)
-            background: #FFFFFF
-            border: 1px solid #8A5137
-            border-radius: 80px
-            text-align: center
-        .block2__ellipse--treatment
-            @include he-wi(124px, 124px, 657px , 234px)
-            background: #FFFFFF
-            border: 1px solid #8A5137
-            border-right: 1px solid #8A5137
-            border-radius: 80px
-            text-align: center
-        .block2__ellipse--waiting
-            @include he-wi(124px, 124px, 1104px , 234px)
-            border: 1px solid #8A5137
-            background: #FFFFFF
-            border-radius: 80px
-            text-align: center
-
-        .block2__ellipse-image
-            padding: 40px 
-        .block2__list-text
-            @include font(normal, 20px, 150%, $black)
-            width: 296px
-            height: 30px
-            position: relative
-            left: -80px
-            top: 14px
-
-.block3
-    @include he-wi(1440px, 798px, 0px, 3411px)
-
-    .block3__title
-        @include he-wi(626px, 60px, 407px, 90px)
-        @include font(200, 40px, 150%, $black)
-    
-    .block3__photo
-        @include he-wi(86px, 86px, 676px, 177px)
-    .block3__photos-name
-        @include he-wi(426px, 37px, 507px, 273px)
-        @include font(500, 22px, 170%, $black)
-
-    .block3__ellipse
-        @include he-wi(43px, 43px, 0px, 198px)
-        border: 1px solid #8A5137
-        border-radius: 43px
-
-    .block3__ellipse:hover
-        background-color: #8A5137
-        transition: 1s
-
-    .block3__ellipse-left
-        left: 421px
-    .block3__ellipse-right
-        left: 1019px
-
-    .block3__arrow-left
-        position: absolute
-        top: 18px
-        left: 19px
-
-    .block3__arrow-right
-        position: absolute
-        top: 18px
-        right: 19px
-
-    .block3__subtitle
-        @include he-wi(650px, 186px, 395px, 331px)
+    .buy__subtitle
         @include font(300, 18px, 170%, $black)
+        @include he-wi(428px, 93px, 786px, 1749px)
 
-
-    .block3__subtitle_left
-        left: -387px
+    .buy__last-price
+        @include font(200, 20px, 150%, $black)
+        @include he-wi(116px, 30px, 876px, 1874px)
         opacity: 0.5
-    .block3__subtitle_right
-        left: 1177px
+    .buy__cross
+        @include he-wi(90px, 1px, 889px, 1889px)
+        background: #000000
         opacity: 0.5
 
+    .buy__new-price
+        @include font(200, 30px, 150%, $black)
+        @include he-wi(188px, 45px, 939px, 1863px)
 
-.aloe
-    @include he-wi(874px, 416px, 283px, 4041px)
-    z-index: 1
+    .buy__button
+        @include he-wi(316px, 70px, 845px, 1936px)
 
-.block4
-    @include he-wi(1440px, 700px, 0px, 4209px)
-    background: $black
-
-    .block4__title
-        @include he-wi(626px, 60px, 407px, 350px)
-        @include font(200, 40px, 150%, $white)
-        position: relative
-
-    .vector-background
-        @include he-wi(42%, -15.42%, 54.83%, 0%)
-
-    .block4__list
-        @include he-wi(1303px, 380px, 76px, 464px)
-        margin-right: 44px
-
-        .block4__list-item-left
-            left: 0
-            margin-right: 10px
-
-        .block4__list-item-center
-            margin-left: 12px
-            
-        .block4__list-item-right
-            margin-left: 10px
-
-        .block4__list-subtitle
-            @include font(normal, 18px, 160%, $black)
-            margin-top: 20px
-            text-align: left
-
-    .block4__img-hover_effect
-        @include he-wi(427px, 299px, 1px, 1px)
-        transition: 1s
-    .block4__img-hover_effect-center
-        @include he-wi(427px, 299px, 450px, 1px)
-    .block4__img-hover_effect-right
-        @include he-wi(427px, 299px, 887px, 1px)
-
-    .block4__img-hover_effect:hover
-        transition: 1s
-        background-color: rgba(138, 81, 55, 0.5)
-
-    .block4__image
-        @include he-wi(1320px, 190px, 34px, 897px)
-
-.block5
-    @include he-wi(1440px, 568px, 0px, 5355px)
-    background: rgba(252, 209, 194, 0.2)
-
-    .block5__title
-        @include he-wi(626px, 58px, 189px, 104px)
-        @include font(200, 40px, 150%, $black)
-    .block5__subtitle
-        @include he-wi(736px, 185px, 133px, 189px)
-        @include font(300, 22px, 170%, $black)
-
-    .block5__input-email
-        @include he-wi(315px, 70px, 243px, 362px)
-        @include font(normal, 16px, 24px, $black)
-        color: rgba(0, 0, 0, 0.5)
-        text-align: left
-        padding-left: 22px
-        border: 1px solid #000000
-        box-sizing: border-box
-
-    .block5__input-btn
-        @include he-wi(203px, 70px, 558px, 362px)
-        @include font(normal, 16px, 24px, $white)
-        padding: 23px 62px
-        transition: .5s
-
-    .block5__image
-        @include he-wi(550px, 824px, 890px, -129px)
-        box-shadow: 0px -3px white, -1em 0 .9em white
-        border-top: rgb(252, 209, 194)
-
-.block6
-    @include he-wi(1440px, 574px, 0, 5924px)
-    background-color: white
-
-    .block6__title
-        @include he-wi(385px, 42px, 528px, 113px)
-        @include font(200, 40px, 84%, $black)
-
-    .block6__icon
-        @include he-wi(13px, 13px, 475px, 504px)
-
-    .block6__text
-        @include he-wi(476px, 17px, 493px, 504px)
-        @include font(300, 14px, 125.5%, $black)
-
-    .block6__list-slider
-        @include he-wi(1332px, 210px, 58px, 219px)
-        margin-left: 20px
-
-        .block6__slider-item1, .block6__slider-item2, .block6__slider-item3
-            margin-left: 7px
-        .block6__slider-item-first
-            margin: 0
-    .block6__arrow
-        position: absolute
-        top: 324px
-        width: 24px
-    .block6__arrow-left
-        left: 44px
-    .block6__arrow-right
-        left: 1406px
-        
-.footer
-    @include he-wi(1440px, 309px, 0, 6496.77px)
-    background: $black
-
-    .footer__background-img
-        position: relative
-        width: 900px
-        top: -340px
-        left: -380px
-
-    .footer__block1
-        @include he-wi(1440px, 248px, 0, 1px)
-
-        .footer__coflog
-            @include he-wi(180px, 18.3px, 59.04px, 41px)
+    .buy__button:hover
+        background-color: #8A5137
+        border: 1px solid #8A5137
+        transition: 1s 
+        cursor: pointer
 
 
-        .footer__list-link-first
-            @include he-wi(219px, 114px, 618.04px, 41px)
-            display: block
-            
-        .footer__list-link-second
-            @include he-wi(137px, 114px, 954.04px, 41px)
-            display: block
+    .mask-group
+        @include he-wi(1440px, 740px, 0px, 2138px)
 
-        .footer__list
-            @include font(normal, 16px, 240%, $white)
-            text-align: left
-            list-style: none
-            text-decoration: none
-            transition: 0.5s
-        .footer__list:hover
-            color: #8A5137
-            transition: 0.5s
+    .mask-group__title
+        @include font(200, 60px, 72px, $white)
+        @include he-wi(602px, 319px, 419px, 2412px)
 
-        .footer__list-link-contact
-            @include he-wi(130px, 114px, 1224px, 41px)
 
-            .footer__list-contact-item1, .footer__list-contact-item2
-                margin-right: 53px
+    // <--- block2 
 
-            
-            .footer__list-contact-item1:hover, .footer__list-contact-item2:hover, .footer__list-contact-item3:hover
-                fill: #8A5137
-                transition: 1s
+    .block2
+        @include he-wi(1440px, 533px, 0px , 2878px)
+        background: rgba(252, 209, 194, 0.2)
 
-        .footer__list-link-donate
-            @include he-wi(272px, 21px, 1108.04px, 196px)
+        .block2__background-text
+            @include he-wi(822px, 412px, 310px , -109px)
+            font-family: Bellamy Signature
+            font-style: normal
+            font-weight: normal
+            font-size: 102px
+            line-height: 412px
 
-            .footer__list-donate-item1:hover, .footer__list-donate-item2:hover, .footer__list-donate-item3:hover, .footer__list-donate-item4:hover, .footer__list-donate-item5:hover, .footer__list-donate-item6:hover
+            text-align: center
+
+            color: #000000
+            opacity: 0.05
+
+
+        .block2__title
+            @include he-wi(626px, 60px, 407px , 125px)
+            @include font(200, 40px, 150%, $black)
+
+        ul
+            .block2__ellipse--hand-wash
+                @include he-wi(124px, 124px, 215px , 234px)
+                background: #FFFFFF
                 border: 1px solid #8A5137
-                border-radius: 2px
-            .footer__list-donate-item2, .footer__list-donate-item3, .footer__list-donate-item4, .footer__list-donate-item5, .footer__list-donate-item6
-                margin-left: 16px
+                border-radius: 80px
+                text-align: center
+            .block2__ellipse--treatment
+                @include he-wi(124px, 124px, 657px , 234px)
+                background: #FFFFFF
+                border: 1px solid #8A5137
+                border-right: 1px solid #8A5137
+                border-radius: 80px
+                text-align: center
+            .block2__ellipse--waiting
+                @include he-wi(124px, 124px, 1104px , 234px)
+                border: 1px solid #8A5137
+                background: #FFFFFF
+                border-radius: 80px
+                text-align: center
 
-    .fotter__block-line
-        @include he-wi(1320px, 0.5px, 60.04px, 248px)
-        background: #FFFFFF
-        opacity: 0.3
+            .block2__ellipse-image
+                padding: 40px 
+            .block2__list-text
+                @include font(normal, 20px, 150%, $black)
+                width: 296px
+                height: 30px
+                position: relative
+                left: -80px
+                top: 14px
 
-    .footer__block2
-        position: absolute
-        top: 249px
-        height: 60px
-        left: 0
-        right: 0
+    .block3
+        @include he-wi(1440px, 798px, 0px, 3411px)
 
-        .footer__block2-text-left
-            @include he-wi(203px, 18px, 60.04px, 22px)
-            @include font(300, 12px, 18px, $white)
+        .block3__title
+            @include he-wi(626px, 60px, 407px, 90px)
+            @include font(200, 40px, 150%, $black)
+        
+        .block3__ellipse
+            @include he-wi(43px, 43px, 0px, 198px)
+            border: 1px solid #8A5137
+            border-radius: 43px
+            z-index: 1
+
+        .block3__ellipse:hover
+            background-color: #8A5137
+            transition: .5s
+
+        .block3__ellipse-left
+            left: 421px
+        .block3__ellipse-right
+            left: 1019px
+
+        .block3__arrow-left
+            position: absolute
+            top: 18px
+            left: 19px
+
+        .block3__arrow-right
+            position: absolute
+            top: 18px
+            right: 19px
+
+        .block3__subtitle
+            @include he-wi(650px, 325px, 395px, 185px)
+            @include font(300, 18px, 170%, $black)
+            text-align: center
+            
+        .block3__photo
+            @include he-wi(86px, 86px, 280px, 0)
+            
+        .block3__photos-name
+            @include he-wi(426px, 37px, 111px, 96px)
+            @include font(500, 22px, 170%, $black)
+
+        .block3__subtitle-text
+            position: absolute
+            top: 154px
+
+        
+
+
+        .block3__subtitle_left
+            left: -387px
+        .block3__subtitle_right
+            left: 1177px
+    // .block3__subtitle 
+    //     animation-name: fade
+    //     animation-duration: 1.5s
+
+    // @keyframes fade 
+    //     from 
+    //         opacity: 0.4
+        
+    //     to 
+    //         opacity: 1
+        
+
+
+    .aloe
+        @include he-wi(874px, 416px, 283px, 4041px)
+        z-index: 1
+
+    .block4
+        @include he-wi(1440px, 700px, 0px, 4209px)
+        background: $black
+
+        .block4__title
+            @include he-wi(626px, 60px, 407px, 350px)
+            @include font(200, 40px, 150%, $white)
+            position: relative
+
+        .vector-background
+            @include he-wi(42%, -15.42%, 54.83%, 0%)
+
+        .block4__list
+            @include he-wi(1303px, 380px, 76px, 464px)
+            margin-right: 44px
+
+            .block4__list-item-left
+                left: 0
+                margin-right: 10px
+
+            .block4__list-item-center
+                margin-left: 12px
+                
+            .block4__list-item-right
+                margin-left: 10px
+
+            .block4__list-subtitle
+                @include font(normal, 18px, 160%, $black)
+                margin-top: 20px
+                text-align: left
+
+        .block4__img-hover_effect
+            @include he-wi(427px, 299px, 1px, 1px)
+            transition: 1s
+        .block4__img-hover_effect-center
+            @include he-wi(427px, 299px, 450px, 1px)
+        .block4__img-hover_effect-right
+            @include he-wi(427px, 299px, 887px, 1px)
+
+        .block4__img-hover_effect:hover
+            transition: 1s
+            background-color: rgba(138, 81, 55, 0.5)
+
+        .block4__image
+            @include he-wi(1320px, 190px, 34px, 897px)
+
+    .block5
+        @include he-wi(1440px, 568px, 0px, 5355px)
+        background: rgba(252, 209, 194, 0.2)
+
+        .block5__title
+            @include he-wi(626px, 58px, 189px, 104px)
+            @include font(200, 40px, 150%, $black)
+        .block5__subtitle
+            @include he-wi(736px, 185px, 133px, 189px)
+            @include font(300, 22px, 170%, $black)
+
+        .block5__input-email
+            @include he-wi(315px, 70px, 243px, 362px)
+            @include font(normal, 16px, 24px, $black)
+            color: rgba(0, 0, 0, 0.5)
             text-align: left
-            opacity: 0.4
+            padding-left: 22px
+            border: 1px solid #000000
+            box-sizing: border-box
 
-        .footer__block2-text-right
-            @include he-wi(144px, 18px, 1236.04px, 22px)
-            @include font(300, 12px, 18px, $white)
-            text-align: right
-            opacity: 0.4
+        .block5__input-btn
+            @include he-wi(203px, 70px, 558px, 362px)
+            @include font(normal, 16px, 24px, $white)
+            padding: 23px 62px
+            transition: .5s
+
+        .block5__image
+            @include he-wi(550px, 824px, 890px, -129px)
+            box-shadow: 0px -3px white, -1em 0 .9em white
+            border-top: rgb(252, 209, 194)
+
+    .block6
+        @include he-wi(1440px, 574px, 0, 5924px)
+        background-color: white
+
+        .block6__title
+            @include he-wi(385px, 42px, 528px, 113px)
+            @include font(200, 40px, 84%, $black)
+
+        .block6__icon
+            @include he-wi(13px, 13px, 475px, 504px)
+
+        .block6__text
+            @include he-wi(476px, 17px, 493px, 504px)
+            @include font(300, 14px, 125.5%, $black)
+
+        .block6__list-slider
+            @include he-wi(1332px, 210px, 58px, 219px)
+            margin-left: 20px
+
+            .block6__slider-item1, .block6__slider-item2, .block6__slider-item3
+                margin-left: 7px
+            .block6__slider-item-first
+                margin: 0
+        .block6__arrow
+            position: absolute
+            top: 324px
+            width: 24px
+        .block6__arrow-left
+            left: 44px
+        .block6__arrow-right
+            left: 1406px
+            
+    .footer
+        @include he-wi(1440px, 309px, 0, 6496.77px)
+        background: $black
+
+        .footer__background-img
+            position: relative
+            width: 900px
+            top: -340px
+            left: -380px
+
+        .footer__block1
+            @include he-wi(1440px, 248px, 0, 1px)
+
+            .footer__coflog
+                @include he-wi(180px, 18.3px, 59.04px, 41px)
+
+
+            .footer__list-link-first
+                @include he-wi(219px, 114px, 618.04px, 41px)
+                display: block
+                
+            .footer__list-link-second
+                @include he-wi(137px, 114px, 954.04px, 41px)
+                display: block
+
+            .footer__list
+                @include font(normal, 16px, 240%, $white)
+                text-align: left
+                list-style: none
+                text-decoration: none
+                transition: 0.5s
+            .footer__list:hover
+                color: #8A5137
+                transition: 0.5s
+
+            .footer__list-link-contact
+                @include he-wi(130px, 114px, 1224px, 41px)
+
+                .footer__list-contact-item1, .footer__list-contact-item2
+                    margin-right: 53px
+
+                
+                .footer__list-contact-item1:hover, .footer__list-contact-item2:hover, .footer__list-contact-item3:hover
+                    fill: #8A5137
+                    transition: 1s
+
+            .footer__list-link-donate
+                @include he-wi(272px, 21px, 1108.04px, 190px)
+
+                .footer__list-donate-item1:hover, .footer__list-donate-item2:hover, .footer__list-donate-item3:hover, .footer__list-donate-item4:hover, .footer__list-donate-item5:hover, .footer__list-donate-item6:hover
+                    border: 1px solid #8A5137
+                    border-radius: 2px
+                .footer__list-donate-item1, .footer__list-donate-item2, .footer__list-donate-item3, .footer__list-donate-item4, .footer__list-donate-item5, .footer__list-donate-item6
+                    margin-left: 16px
+                    border: 1px solid $black
+
+        .fotter__block-line
+            @include he-wi(1320px, 0.5px, 60.04px, 248px)
+            background: #FFFFFF
+            opacity: 0.3
+
+        .footer__block2
+            position: absolute
+            top: 249px
+            height: 60px
+            left: 0
+            right: 0
+
+            .footer__block2-text-left
+                @include he-wi(203px, 18px, 60.04px, 22px)
+                @include font(300, 12px, 18px, $white)
+                text-align: left
+                opacity: 0.4
+
+            .footer__block2-text-right
+                @include he-wi(144px, 18px, 1236.04px, 22px)
+                @include font(300, 12px, 18px, $white)
+                text-align: right
+                opacity: 0.4
+
+
 
 
 
