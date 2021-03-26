@@ -28,6 +28,585 @@ ul {
   cursor: pointer;
 }
 
+.block3__ellipse {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 0px;
+  top: 198px;
+  border: 1px solid #8A5137;
+  border-radius: 43px;
+  z-index: 1;
+}
+
+.block3__ellipse:hover {
+  background-color: #8A5137;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1439px) {
+  .main {
+    position: relative;
+    margin: 0 auto;
+    width: 375px;
+    height: 6197px;
+    background: #FFFFFF;
+  }
+  .main .header {
+    position: absolute;
+    width: 375px;
+    height: 828px;
+    left: 0;
+    top: -74px;
+  }
+  .main .header .header__top {
+    position: absolute;
+    height: 31px;
+    background-color: #000000;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+  }
+  .main .header .header__menu {
+    position: absolute;
+    width: 39px;
+    height: 21px;
+    left: 19px;
+    top: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+  }
+  .main .header .header__coffe-face-logo {
+    position: absolute;
+    width: 122px;
+    height: 12px;
+    left: 127px;
+    top: 46px;
+    z-index: 1;
+  }
+  .main .header .header__link {
+    display: none;
+  }
+  .main .header .cart {
+    position: absolute;
+    width: 11.76px;
+    height: 13.59px;
+    left: 342.84px;
+    top: 44.41px;
+    z-index: 1;
+  }
+  .main .header .cart-number {
+    position: absolute;
+    width: 10.29px;
+    height: 11.02px;
+    left: 348.71px;
+    top: 40px;
+    z-index: 1;
+  }
+  .main .header .header__title {
+    position: absolute;
+    width: 335px;
+    height: 117px;
+    left: 20px;
+    top: 415px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+  }
+  .main .header .header__subtitle {
+    position: absolute;
+    width: 311px;
+    height: 48px;
+    left: 32px;
+    top: 542px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+  }
+  .main .header .header__button {
+    position: absolute;
+    width: 335px;
+    height: 54px;
+    left: 20px;
+    top: 620px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+  }
+  .main .header .header__photo {
+    position: absolute;
+    width: 538px;
+    height: 672px;
+    left: -67px;
+    top: 82px;
+  }
+  .main .block1 {
+    position: absolute;
+    width: 375px;
+    height: 580px;
+    left: 0px;
+    top: 754px;
+    background-color: #000000;
+  }
+  .main .block1 .block1__title-coffe-face {
+    position: absolute;
+    width: 162px;
+    height: 16px;
+    left: 107px;
+    top: 405px;
+  }
+  .main .block1 .block1__subtitle {
+    position: absolute;
+    width: 335px;
+    height: 81px;
+    left: 20px;
+    top: 437px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .main .block1 .block1__image-girl {
+    position: absolute;
+    width: 335px;
+    height: 404.74px;
+    left: 20px;
+    top: -41px;
+  }
+  .main .buy__title {
+    position: absolute;
+    width: 334px;
+    height: 78px;
+    left: 21px;
+    top: 1417px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+  }
+  .main .buy__subtitle {
+    position: absolute;
+    width: 334px;
+    height: 72px;
+    left: 21px;
+    top: 1541px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 170%;
+    text-align: center;
+    color: #000000;
+  }
+  .main .buy__reviews {
+    position: absolute;
+    width: 60px;
+    height: 17px;
+    left: 115px;
+    top: 1513px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 125.5%;
+    text-align: center;
+    color: #000000;
+  }
+  .main .buy__last-price {
+    position: absolute;
+    width: 116px;
+    height: 24px;
+    left: 72px;
+    top: 1640px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    opacity: 0.5;
+  }
+  .main .buy__cross {
+    position: absolute;
+    width: 68px;
+    height: 1px;
+    left: 96px;
+    top: 1652px;
+    background-color: #000000;
+  }
+  .main .buy__new-price {
+    position: absolute;
+    width: 102px;
+    height: 45px;
+    left: 178px;
+    top: 1625px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+  }
+  .main .buy__button {
+    position: absolute;
+    width: 335px;
+    height: 54px;
+    left: 20px;
+    top: 1688px;
+  }
+  .main .buy__image-coffe-face1 {
+    position: absolute;
+    width: 355.16px;
+    height: 357.43px;
+    left: 29.19px;
+    top: 1741px;
+  }
+  .main .buy__image-coffe-face2 {
+    position: absolute;
+    width: 441.23px;
+    height: 418.43px;
+    left: 188.19px;
+    top: 2243.91px;
+  }
+  .main .mask-group {
+    display: none;
+  }
+  .main .mask-group-365 {
+    position: absolute;
+    width: 375px;
+    height: 569px;
+    left: 0px;
+    top: 2152px;
+  }
+  .main .mask-group__title {
+    position: absolute;
+    width: 335px;
+    height: 144px;
+    left: 20px;
+    top: 2216px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+  }
+  .main .block2 {
+    position: absolute;
+    width: 375px;
+    height: 673px;
+    left: 0px;
+    top: 2721px;
+    background: #FEF6F3;
+  }
+  .main .block2 .block2__background-text {
+    position: absolute;
+    width: 525px;
+    height: 263px;
+    left: -76px;
+    top: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 282px;
+    line-height: 263px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.05;
+  }
+  .main .block2 .block2__title {
+    position: absolute;
+    width: 335px;
+    height: 90px;
+    left: 20px;
+    top: 57px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+  }
+  .main .block2 ul {
+    display: block;
+  }
+  .main .block2 ul .block2__ellipse--hand-wash {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 147px;
+    top: 179px;
+  }
+  .main .block2 ul .block2__ellipse--treatment {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 147px;
+    top: 337px;
+  }
+  .main .block2 ul .block2__ellipse--waiting {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 147px;
+    top: 495px;
+  }
+  .main .block3 {
+    position: absolute;
+    width: 375px;
+    height: 567px;
+    left: 0px;
+    top: 3394px;
+  }
+  .main .block3 .block3__title {
+    position: absolute;
+    width: 335px;
+    height: 45px;
+    left: 20px;
+    top: 57px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+  }
+  .main .block3 .block3__ellipse-left {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 20px;
+    top: 145px;
+  }
+  .main .block3 .block3__ellipse-right {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 355px;
+    top: 145px;
+  }
+  .main .block3 .block3__slider-line {
+    position: absolute;
+    width: 335px;
+    height: 294px;
+    left: 20px;
+    top: 130px;
+  }
+  .main .aloe {
+    position: absolute;
+    width: 335px;
+    height: 159px;
+    left: 20px;
+    top: 3881px;
+  }
+  .main .block4 {
+    position: absolute;
+    width: 375px;
+    height: 367px;
+    left: 0px;
+    top: 3961px;
+  }
+  .main .block4 .block4__title {
+    position: absolute;
+    width: 335px;
+    height: 45px;
+    left: 20px;
+    top: 138px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+  }
+  .main .block4 .vector-background {
+    position: absolute;
+    width: 441px;
+    height: 418px;
+    left: 282px;
+    top: 4322px;
+  }
+  .main .block4 .block4__image {
+    position: absolute;
+    width: 734px;
+    height: 107px;
+    left: -276px;
+    top: 4452px;
+  }
+  .main .block5 {
+    position: absolute;
+    width: 375px;
+    height: 886px;
+    left: 0px;
+    top: 4566px;
+  }
+  .main .block5 .block4__title {
+    position: absolute;
+    width: 335px;
+    height: 58px;
+    left: 20px;
+    top: 53px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+  }
+  .main .block5 .block5__title {
+    position: absolute;
+    width: 335px;
+    height: 189px;
+    left: 20px;
+    top: 168px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+    color: #000000;
+  }
+  .main .block5 .block5__input-email {
+    position: absolute;
+    width: 335px;
+    height: 54px;
+    left: 20px;
+    top: 338px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    border: 1px solid #000000;
+    opacity: 0.5;
+    text-align: left;
+  }
+  .main .block5 .block5__input-btn {
+    position: absolute;
+    width: 335px;
+    height: 54px;
+    left: 20px;
+    top: 402px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .main .block5 .block5__image {
+    position: absolute;
+    width: 435px;
+    height: 651px;
+    left: -60px;
+    top: 485px;
+  }
+  .main .block6 {
+    position: absolute;
+    width: 375px;
+    height: 360px;
+    left: 0px;
+    top: 5452px;
+  }
+  .main .block6 .block6__title {
+    position: absolute;
+    width: 335px;
+    height: 58px;
+    left: 20px;
+    top: 58px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+  }
+  .main .block6 .block6__arrow {
+    display: none;
+  }
+  .main .block6 .block6__list-slider {
+    position: absolute;
+    width: 336px;
+    height: 105px;
+    left: 20px;
+    top: 121px;
+  }
+  .main .block6 .block6__list-item {
+    display: none;
+  }
+  .main .block6 .block6__list-item-first {
+    margin-right: 8px;
+  }
+  .main .block6 .block6__icon {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 182px;
+    top: 246px;
+  }
+  .main .block6 .block6__text {
+    position: absolute;
+    width: 258px;
+    height: 28px;
+    left: 59px;
+    top: 263px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 125.5%;
+    text-align: center;
+    color: #000000;
+  }
+  .main .footer {
+    position: absolute;
+    width: 375px;
+    height: 385px;
+    left: 0px;
+    top: 5812px;
+  }
+  .main .footer .footer__background-img {
+    position: absolute;
+    width: 545.68px;
+    height: 517.54px;
+    left: 120.51px;
+    top: 263px;
+  }
+  .main .footer .footer__coflog {
+    position: absolute;
+    width: 122px;
+    height: 12px;
+    left: 20px;
+    top: 263px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .main {
     position: relative;
@@ -55,6 +634,9 @@ ul {
   .header__top .header__top-text {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .header__menu {
+    display: none;
   }
   .header__coffe-face-logo {
     position: absolute;
@@ -420,21 +1002,6 @@ ul {
     line-height: 150%;
     text-align: center;
     color: #000000;
-  }
-  .block3 .block3__ellipse {
-    position: absolute;
-    width: 43px;
-    height: 43px;
-    left: 0px;
-    top: 198px;
-    border: 1px solid #8A5137;
-    border-radius: 43px;
-    z-index: 1;
-  }
-  .block3 .block3__ellipse:hover {
-    background-color: #8A5137;
-    -webkit-transition: .5s;
-    transition: .5s;
   }
   .block3 .block3__ellipse-left {
     left: 421px;

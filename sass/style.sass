@@ -2,6 +2,265 @@
 @import "_global.sass"
 @import "_mixin.sass"
 
+@media screen and ( min-width: 375px) and ( max-width: 1439px)
+    .main   
+        position: relative
+        margin: 0 auto
+        width: 375px
+        height: 6197px
+        background: #FFFFFF
+
+        .header
+            @include he-wi(375px, 828px, 0, -74px)
+
+            .header__top
+                position: absolute
+                height: 31px
+                background-color: $black
+                left: 0
+                right: 0
+                top: 0
+                @include font(300, 10px, 15px, $white)
+                z-index: 1
+
+            .header__menu
+                @include he-wi(39px, 21px, 19px, 42px)
+                @include font(normal, 14px, 21px, $black)
+                z-index: 1
+
+            .header__coffe-face-logo
+                @include he-wi(122px, 12px, 127px, 46px)
+                z-index: 1
+
+            .header__link
+                display: none
+
+            .cart
+                @include he-wi(11.76px, 13.59px, 342.84px, 44.41px)
+                z-index: 1
+            .cart-number
+                @include he-wi(10.29px, 11.02px, 348.71px, 40px)
+                z-index: 1
+
+            .header__title
+                @include he-wi(335px, 117px, 20px, 415px)
+                @include font(300, 28px, 140%, $black)
+                z-index: 1
+
+            .header__subtitle
+                @include he-wi(311px, 48px, 32px, 542px)
+                @include font(normal, 16px, 24px, $black)
+                z-index: 1
+
+            .header__button
+                @include he-wi(335px, 54px, 20px, 620px)
+                @include font(normal, 14px, 21px, $white)
+                z-index: 1
+
+            .header__photo
+                @include he-wi(538px, 672px, -67px, 82px)
+                
+        
+        .block1
+            @include he-wi(375px, 580px, 0px, 754px)
+            background-color: $black
+
+            .block1__title-coffe-face
+                @include he-wi(162px, 16px, 107px, 405px)
+
+            .block1__subtitle
+                @include he-wi(335px, 81px, 20px, 437px)
+                @include font(300, 16px, 170%, $white)
+
+            .block1__image-girl
+                @include he-wi(335px, 404.74px, 20px, -41px)
+            
+        
+        .buy__title
+            @include he-wi(334px, 78px, 21px, 1417px)
+            @include font(200, 30px, 130%, $black)
+        .buy__subtitle
+            @include he-wi(334px, 72px, 21px, 1541px)
+            @include font(300, 14px, 170%, $black)
+
+        .buy__reviews
+            @include he-wi(60px, 17px, 115px, 1513px)
+            @include font(300, 14px, 125.5%, $black)
+
+        .buy__last-price
+            @include he-wi(116px, 24px, 72px, 1640px)
+            @include font(200, 16px, 150%, $black)
+            opacity: 0.5
+        .buy__cross
+            @include he-wi(68px, 1px, 96px, 1652px)
+            background-color: $black
+        .buy__new-price
+            @include he-wi(102px, 45px, 178px, 1625px)
+            @include font(200, 30px, 150%, $black)
+        .buy__button
+            @include he-wi(335px, 54px, 20px, 1688px)
+
+        .buy__image-coffe-face1
+            @include he-wi(355.16px, 357.43px, 29.19px, 1741px)
+        .buy__image-coffe-face2
+            @include he-wi(441.23px, 418.43px, 188.19px, 2243.91px)
+
+        .mask-group
+            display: none
+        .mask-group-365
+            @include he-wi(375px, 569px, 0px, 2152px)
+        .mask-group__title
+            @include he-wi(335px, 144px, 20px, 2216px)
+            @include font(200, 40px, 120%, $black)
+
+        .block2
+            @include he-wi(375px, 673px, 0px, 2721px)
+            background: #FEF6F3
+
+            .block2__background-text
+                @include he-wi(525px, 263px, -76px, 0)
+                @include font(normal, 282px, 263px, $black)
+                opacity: 0.05
+
+            .block2__title
+                @include he-wi(335px, 90px, 20px, 57px)
+                @include font(200, 30px, 150%, $black)
+
+            ul
+                display: block
+
+                .block2__ellipse--hand-wash
+                    @include he-wi(86px, 86px, 147px, 179px)
+                .block2__ellipse--treatment
+                    @include he-wi(86px, 86px, 147px, 337px)
+                .block2__ellipse--waiting
+                    @include he-wi(86px, 86px, 147px, 495px)
+
+        .block3
+            @include he-wi(375px, 567px, 0px, 3394px)
+
+            .block3__title
+                @include he-wi(335px, 45px, 20px, 57px)
+                @include font(200, 30px, 150%, $black)
+
+            .block3__ellipse-left
+                @include he-wi(31px, 31px, 20px, 145px)
+            .block3__ellipse-right
+                @include he-wi(31px, 31px, 355px, 145px)
+
+            .block3__slider-line
+                @include he-wi(335px, 294px, 20px, 130px)
+
+        .aloe
+            @include he-wi(335px, 159px, 20px, 3881px)
+
+        .block4
+            @include he-wi(375px, 367px, 0px, 3961px)
+
+            .block4__title
+                @include he-wi(335px, 45px, 20px, 138px)
+                @include font(200, 30px, 150%, $black)
+
+            .vector-background
+                @include he-wi(441px, 418px, 282px, 4322px)
+
+
+
+            .block4__image
+                @include he-wi(734px, 107px, -276px, 4452px)
+
+        .block5
+            @include he-wi(375px, 886px, 0px, 4566px)
+
+            .block4__title
+                @include he-wi(335px, 58px, 20px, 53px)
+                @include font(200, 30px, 150%, $black)
+
+            .block5__title
+                @include he-wi(335px, 189px, 20px, 168px)
+                @include font(200, 16px, 170%, $black)
+
+            .block5__input-email
+                @include he-wi(335px, 54px, 20px, 338px)
+                @include font(normal, 14px, 21px, $black)
+                border: 1px solid #000000
+                opacity: 0.5
+                text-align: left
+
+            .block5__input-btn
+                @include he-wi(335px, 54px, 20px, 402px)
+                @include font(normal, 14px, 21px, $white)
+
+            .block5__image
+                @include he-wi(435px, 651px, -60px, 485px)
+
+        .block6
+            @include he-wi(375px, 360px, 0px, 5452px)
+
+            .block6__title
+                @include he-wi(335px, 58px, 20px, 58px)
+                @include font(200, 30px, 150%, $black)
+
+            .block6__arrow
+                display: none
+
+            .block6__list-slider
+                @include he-wi(336px, 105px, 20px, 121px)
+
+
+            .block6__list-item
+                display: none
+
+            .block6__list-item-first
+                margin-right: 8px
+
+            .block6__icon
+                @include he-wi(13px, 13px, 182px, 246px)
+
+            .block6__text
+                @include he-wi(258px, 28px, 59px, 263px)
+                @include font(300, 12px, 125.5%, $black)
+
+        .footer
+            @include he-wi(375px, 385px, 0px, 5812px)
+
+            .footer__background-img
+                @include he-wi(545.68px, 517.54px, 120.51px, 263px)
+
+            .footer__coflog
+                @include he-wi(122px, 12px, 20px, 263px)
+
+                
+
+
+
+                
+
+
+
+                
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+                
+
+
+
+
+
+
 
 @media screen and ( min-width: 1440px  )
     
@@ -31,7 +290,8 @@
         .header__top-text
             margin-top: 10px
             margin-bottom: 10px
-
+    .header__menu
+        display: none
     .header__coffe-face-logo
         @include he-wi(179.55px, 18.3px, 60px, 78px)
 
@@ -224,16 +484,6 @@
         .block3__title
             @include he-wi(626px, 60px, 407px, 90px)
             @include font(200, 40px, 150%, $black)
-        
-        .block3__ellipse
-            @include he-wi(43px, 43px, 0px, 198px)
-            border: 1px solid #8A5137
-            border-radius: 43px
-            z-index: 1
-
-        .block3__ellipse:hover
-            background-color: #8A5137
-            transition: .5s
 
         .block3__ellipse-left
             left: 421px
@@ -486,6 +736,8 @@
 
 
 
+            
+        
 
 
 
